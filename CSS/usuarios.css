@@ -1,0 +1,768 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.eot');
+    src: url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.woff2') format('woff2'),
+        url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.woff') format('woff'),
+        url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.ttf') format('truetype'),
+        url('../Fuentes/Titulo/djb_holly_berry_wonderland-webfont.svg#djb_holly_berry_wonderlandRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'enlaces';
+    src: url('../Fuentes/Enlaces/kingsbridge_rg-webfont.eot');
+    src: url('../Fuentes/Enlaces/kingsbridge_rg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/Enlaces/kingsbridge_rg-webfont.woff2') format('woff2'),
+        url('../Fuentes/Enlaces/kingsbridge_rg-webfont.woff') format('woff'),
+        url('../Fuentes/Enlaces/kingsbridge_rg-webfont.ttf') format('truetype'),
+        url('../Fuentes/Enlaces/kingsbridge_rg-webfont.svg#kingsbridgeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tituloSeccion';
+    src: url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.eot');
+    src: url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.woff2') format('woff2'),
+        url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.woff') format('woff'),
+        url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.ttf') format('truetype'),
+        url('../Fuentes/TituloSecciones/mastoc_personaluseonly-webfont.svg#mastoc_personal_use_onlyRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'textoLight';
+    src: url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.eot');
+    src: url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.woff2') format('woff2'),
+        url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.woff') format('woff'),
+        url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.ttf') format('truetype'),
+        url('../Fuentes/Texto/robotoLigth/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'textoCondensed';
+    src: url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.eot');
+    src: url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.woff2') format('woff2'),
+        url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.woff') format('woff'),
+        url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.ttf') format('truetype'),
+        url('../Fuentes/Texto/robotoCondensedItalic/roboto-condenseditalic-webfont.svg#robotocondensed_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{ 
+    margin: 0 auto;
+    /*   background-image: url(../Imagenes/fondoAzul.png);
+       height: 1000px;
+       background-repeat: no-repeat;
+       background-size: cover;  
+       background-position:center;*/
+}
+
+/*******************Index******************************************************/
+#index
+{
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;    
+    font-family: tituloSeccion;
+    font-size: 1.5em; 
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;   
+}
+
+#index a
+{
+    position: relative;
+    top:200px;
+    color:white;
+    font-size: 200%;
+    margin-right: 100px;   
+}
+
+#index h1
+{
+    color:white;
+    font-size: 200%;
+    font-family: textoCondensed;
+    margin-right: 100px;   
+    margin-top: 100px;
+}
+
+#index form label, #index form input
+{
+    text-align: left;
+    margin-bottom:  10px;
+}
+
+#index nav
+{
+    width: 23.07692307692308%; /*300px/1300px*/
+    height: 1000px;
+    background-color: rgba(0,0,0,0.44);
+    float: right;
+    color: white;
+}
+
+#titulo
+{  
+    margin: auto;
+    width: 290px;
+    font-family: titulo;
+    text-align: center;
+    line-height: 70px; 
+    font-size: 3.1em;  /*50px/16px*/
+    margin-top: 16.66666666666667%;   /*50px/300px*/   
+}
+
+
+
+#enlaces
+{   margin: auto;
+    width: 200px; 
+    text-align: right; 
+    line-height: 65px;
+    margin-top: 150px;  
+    // margin-left:20%;   /*60px/300px*/
+    background-image: url(../Imagenes/new-zealand.png);
+    background-repeat: no-repeat;
+    padding-right: 11.6%; /*35px/300px*/
+}
+
+#enlaces a
+{
+    text-decoration: none;
+    color: white;
+    font-family: enlaces;
+    font-size: 1.75em;  /*28px/16px*/    
+}
+
+#enlaces a:hover::before
+{
+    content: "·";
+    position: relative;
+    right: 5px;
+}
+
+/*******************Común cabecera y fondo**************************************************/
+
+
+#visitanos, #rutas, #visitanos2
+{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1300px;    
+    /*height: 720px;*/
+    background-image: url(../Imagenes/fondoAzul.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position:center;
+}
+
+#rutas
+{   
+    height: 800px;
+}
+
+#visitanos
+{   
+    height: 1600px;
+}
+
+#visitanos2
+{   
+    height: 800px;
+}
+
+#visitanos header, #rutas header, #visitanos2 header
+{    
+    background-color:rgba(0,0,0,0.44);    
+    height: 100px;
+}
+
+.headerCentro
+{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.headerTitulo
+{
+    width: 200px;
+    position: relative;
+    top: 8px;
+    //  right: 5.76923076923077%;    /*75px/1300px*/
+    font-family: titulo;
+    font-size: 2em;    /*32px/16px*/
+    text-align: right;
+    color: white;
+    line-height: 40px;     
+}
+
+.headerTitulo::before
+{    
+    content: url(../Imagenes/helechoHeader.png);   
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+.headerNav 
+{
+    display: inline-block;
+    position: relative; 
+    left: 28.46153846153846%;        /*370px/1300px*/
+    bottom: 105px;
+}
+
+.headerNav a
+{
+    text-decoration: none;
+    color: white;
+    font-family: enlaces;
+    font-size: 1.56em;  /*25px/16px*/
+    margin-right: 30px; 
+}
+
+.mapaHeader
+{
+    position: relative;
+    bottom: 85px;
+    left: 40.76923076923077%;    /*530px/1300px*/
+}
+
+/*******************Común visitanos y rutas**************************************************/
+
+#superiorVisitanos, #superiorRutas
+{
+    margin: 0 auto;
+    width: 1300px;
+    height: 340px;
+    background-repeat: no-repeat;    
+}
+
+.tituloVisitanosYrutas
+{
+    width: 23.07692307692308%; /*300px/1300px*/
+    font-family: tituloSeccion;
+    font-size: 3.75em;    /*60px/16px*/
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;
+    padding-top: 20px; 
+    padding-left: 11.53846153846154%;    /*150px/1300px*/
+}
+
+.textoVisitanosYrutas
+{
+    width: 43.07692307692308%;       /*560px/1300px*/
+    font-family: textoLight;
+    font-size: 1.06em;      /*17px/16px*/
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px black; 
+    padding-top: 25px;
+    padding-left: 6.92307692307692%;   /*90px/1300px*/    
+}
+
+.inferiorVisitanosYrutas
+{
+    margin: auto;
+    width: 1300px;
+    height: 280px;
+}
+
+/*******************Visítanos**************************************************/
+
+#superiorVisitanos
+{
+    background-image: url(../Imagenes/visitanos.png);   
+}
+
+#avion
+{
+    display: inline-block;
+    background-image: url(../Imagenes/avion.png); 
+    width: 239px;
+    height: 236px;
+    margin-top: 44px;
+}
+
+#mapaComoLlegar
+{
+    display: inline-block;
+    background-image: url(../Imagenes/mapa.png); 
+    width: 445px;
+    height: 201px;
+    margin-left: 2.30769230769231%;  /*30px/1300px*/
+    margin-bottom: 35px;    
+}
+
+#comoLlegar
+{
+    display: inline-block;
+    width: 38.46153846153846%;   /*500px/1300px*/
+    position: relative;
+    left: 3.07692307692308%;         /*40px/1300px*/
+    bottom: 40px;    
+}
+
+#tituloComoLlegar
+{
+    font-family: tituloSeccion;
+    font-size: 3.75em;       /*60px/16px*/
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#textoComollegar
+{
+    font-family: textoLight;
+    font-size: 1.06em;      /*17px/16px*/
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px black;     
+}
+
+/*******************Presentacion Rutas*****************************************/
+#superiorRutas
+{
+    background-image: url(../Imagenes/ciclistas.png);
+}
+
+#presentacionRutas
+{
+    background-image: url(../Imagenes/PresentacionRutas.png);
+}
+
+#preRuta1, #preRuta2, #preRuta3, #preRuta4
+{
+    width: 6.92307692307692%;    /*90px/1300px*/
+    height: 165px;   
+    display: inline-block;
+}
+
+#preRuta1 h1, #preRuta2 h1, #preRuta3 h1, #preRuta4 h1
+{
+    font-family: tituloSeccion;
+    font-size: 1.56em;    /*25px/16px*/
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#preRuta1 p, #preRuta2 p, #preRuta3 p, #preRuta4 p
+{
+    font-family: textoLight;
+    font-size: 1.06em;      /*17px/16px*/
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;
+    text-align: center;
+}
+
+#preRuta1
+{
+    position: relative;
+    top: 40px;
+    left: 263px;
+}
+
+#preRuta2
+{
+    position: relative;
+    top: 40px;
+    left: 338px;
+}
+#preRuta3
+{
+    position: relative;
+    top: 23px;
+    left: 410px;
+}
+
+#preRuta4
+{
+    position: relative;
+    top: 6px;
+    left: 485px;
+}
+
+/******************* Común Rutas***********************************************/
+#mapaRuta1, #mapaRuta2, #mapaRuta3, #mapaRuta4
+{
+    display: inline-block;
+}
+
+#fotoRuta1, #fotoRuta2, #fotoRuta3, #fotoRuta4
+{
+    display: inline-block;
+    width: 1300px;
+    height: 530px;        
+}
+
+/*******************Rutas*****************************************************/
+
+.ruta
+{ 
+    background-image: url(../Imagenes/fondoAzul.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position:center; 
+    width: 100%;
+    min-width: 1300px; 
+    height: 1410px;
+}
+.rutaContenedor
+{
+    margin: auto;
+    width: 1300px;
+}
+
+#mapaRuta1
+{
+    background-image: url(../Imagenes/MapaRuta1.png);
+    width: 433px;
+    height: 366px;
+}
+
+#mapaRuta2
+{
+    background-image: url(../Imagenes/MapaRuta2.png);
+    width: 384px;
+    height: 363px;
+    margin-left: 3.84615384615385%;  /*50px/1300px*/
+}
+
+#mapaRuta3
+{
+    background-image: url(../Imagenes/MapaRuta3.png);
+    width: 426px;
+    height: 364px;
+    margin-left: 0.76923076923077%;      /*10px/1300px*/
+}
+
+#mapaRuta4
+{
+    background-image: url(../Imagenes/MapaRuta4.png);
+    width: 428px;
+    height: 364px;
+    margin-left: 0.38461538461538%;      /*5px/1300px*/
+}
+
+#fotoRuta1
+{
+    background-image: url( "../Imagenes/hobbiton.png");
+    width: 1300px;
+    height: 530px;        
+}
+
+#fotoRuta2
+{
+    background-image: url( "../Imagenes/Auckland.png");    
+}
+
+#fotoRuta3
+{
+    background-image: url( "../Imagenes/Queenstown.png");
+}
+
+#fotoRuta4
+{
+    background-image: url( "../Imagenes/cascada.png");  
+}
+
+.diasParte1, .diasParte2
+{
+    display: inline-block;
+    width: 66.15384615384615%;   /*860px/1300px*/
+    padding-bottom: 30px;
+}
+
+.diasParte1 h1
+{    
+    font-family: tituloSeccion;
+    font-size: 3.75em;       /*60px/16px*/
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.diasParte1 p, .diasParte2 p
+{
+    font-family: textoLight;
+    font-size: 1.125em;      /*18px/16px*/
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 20px;
+    padding-left: 5.81395348837209%;     /*50px/860px*/
+    padding-right: 5.81395348837209%;   /*50px/860px*/    
+}
+
+.diasParte2 p
+{
+    position: relative;
+    bottom: 60px;
+}
+
+.camino
+{  
+    display: inline-block;
+    background-image: url("../Imagenes/camino.png");
+    width: 431px;
+    height: 384px;
+    margin-left: 0.38461538461538%;       /*5px/1300px*/
+}
+
+#parte2
+{
+    position: relative;
+    top: 10px;
+}
+
+#ruta2
+{
+    height: 1453px;
+}
+
+#parte3
+{
+    position: relative;
+    top: 20px;
+}
+
+#ruta4
+{
+    height: 1430px; 
+}
+
+#parte4
+{
+    position: relative;
+    top: 20px;  
+}
+
+/*******************Footer*****************************************************/
+
+footer
+{
+    width: 100%;
+    min-width: 1300px;
+    background-image: url(../Imagenes/fondoFooter.png);
+    /* background-repeat: no-repeat;*/
+    background-size: cover;
+}
+
+#footerCentro
+{
+    margin: auto;
+    width: 1300px;
+    min-width: 1300px;
+    height: 500px;
+    color: white;   
+}
+
+#informacion, #contacta
+{
+    width: 45%;         /*520px/1300px*/
+    display: inline-block;
+    float: left;
+    margin-top: 90px;
+    margin-left: 4.61538461538462%;      /*60px/1300px*/
+}
+
+#contacta
+{
+    margin-left: 2.30769230769231%;      /*30px/1300px*/
+}
+
+#informacion h3 ,#contacta h3
+{
+    font-family: textoCondensed; 
+    font-size: 1.5em;    /*24px/16px*/
+}
+#informacion h3
+{
+    margin-bottom: 35px;
+}
+
+#informacion li
+{
+    font-family: textoLight;    
+    font-size: 1.25em;    /*20px/16px*/
+    margin-left: 3.84615384615385%;  /*20px/520px*/
+    margin-bottom: 40px;   
+}
+
+form
+{
+    font-family: textoLight;
+    font-size: 1.25em;    /*20px/16px*/
+    margin-top: 30px;
+    margin-left: 3.84615384615385%; 
+}
+
+#myformulario
+{
+    margin-top: 70px;
+    margin-left:-100px;
+}
+
+label
+{
+    display: inline-block;
+    width: 240px;
+}
+.campos
+{
+    margin-top: 30px;
+}
+
+input, textArea
+{
+    background-color: rgba(2,127,185,0.4);
+    width: 225px;
+    color: white;
+}
+
+#enviar
+{
+    width: 95px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+    margin-left: 306px;
+    /*background-color: rgba(2,127,185,0.4);*/
+    background-color: rgba(2,160,255,0.9);
+}
+
+#enviarAncho
+{
+    width: 120px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    /*background-color: rgba(2,127,185,0.4);*/
+    background-color: rgba(2,160,255,0.9);
+}
+#enviarAncho
+{
+    width: 120px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    /*background-color: rgba(2,127,185,0.4);*/
+    background-color: rgba(2,160,255,0.9);
+}
+#enviarAncho2
+{
+    width: 150px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+    margin-left: 240px;
+    /*background-color: rgba(2,127,185,0.4);*/
+    background-color: rgba(2,160,255,0.9);
+}
+
+#enviarAncho3
+{
+    width: 120px;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    /*background-color: rgba(2,127,185,0.4);*/
+    background-color: rgba(2,160,255,0.9);
+}
+
+#olvidado
+{
+    font-size: 70%;
+    position:relative;
+    bottom: 100px;
+    left: 50px;
+    font-family: textoLight;
+}
+
+#tabla 
+{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+     font-size: 100%    
+}
+
+#tabla td, #tabla tr 
+{
+    font-family: textoLight;
+    border: 1px solid white;
+}
+#tabla tr 
+{
+    height: 50px;
+}
+
+#tabla a
+{
+    font-size: 100%;
+    position: relative;
+    top: 0px;
+    color: white;
+    margin-right:0px;
+}
+
+#tabla td
+{
+    min-width: 100px;
+}
+
+#paginacion
+{
+    position:relative;
+    bottom: 80px;
+    text-align: center;
+    color:white;
+    letter-spacing: 10px;
+    font-size: 150%;
+}
+
+#cerrar
+{
+    position: relative;
+    top: 625px;
+    left: 550px;
+    margin: 0 auto;
+    text-align: center;  
+    font-family: tituloSeccion;
+    font-size: 3em; 
+    text-shadow: 1.5px 1.5px 1.5px black; 
+    color: white;  
+}
+
+#copy
+{
+    font-family: textoCondensed; 
+}
+
+#copy::after
+{
+    content: url(../Imagenes/helechoCopy.png);
+}
+
